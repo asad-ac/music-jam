@@ -2,7 +2,7 @@
 
 Submitted by: **Asad Chaudhry**
 
-About this web app: **Find concerts in the biggest cities across the United States like Chicago, Los Angeles, Miami, and New York. **
+About this web app: **Find concerts in the biggest cities across the United States like Chicago, Los Angeles, Miami, and New York.**
 
 Time spent: **3** hours
 
@@ -39,7 +39,7 @@ Here's a walkthrough of implemented required features:
 
 ![App Demo](./demo.gif)
 
-<a src='https://imgur.com/a/6xB7vgA' title='Video Walkthrough' width='' alt='Video Walkthrough'> Video Walkthrough </a>
+<a href='https://imgur.com/a/6xB7vgA' aria-label='Video Walkthrough'> Video Walkthrough </a>
 
 ## Notes
 
