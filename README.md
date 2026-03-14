@@ -2,7 +2,7 @@
 
 Submitted by: **Asad Chaudhry**
 
-About this web app: **Find concerts in the biggest cities across the United States like Chicago, Los Angeles, Miami, and New York.**
+About this web app: **Find concerts in major U.S. cities like Chicago, Los Angeles, Miami, and New York.**
 
 Time spent: **3** hours
 
