@@ -2,7 +2,7 @@
 
 Submitted by: **Asad Chaudhry**
 
-About this web app: **Find concerts in the biggest cities across the United States like Chicago, Los Angeles, Miami, and New York. **
+About this web app: **Find concerts in major U.S. cities like Chicago, Los Angeles, Miami, and New York.**
 
 Time spent: **3** hours
 
@@ -31,7 +31,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] User can click event to take them to a page with link to buy tickets!
+- [x] User can click any event to take them to a page with link to buy tickets!
 
 ## Video Walkthrough
 
@@ -39,11 +39,11 @@ Here's a walkthrough of implemented required features:
 
 ![App Demo](./demo.gif)
 
-<a src='https://imgur.com/a/6xB7vgA' title='Video Walkthrough' width='' alt='Video Walkthrough'> Video Walkthrough </a>
+<a href='https://imgur.com/a/6xB7vgA' aria-label='Video Walkthrough'> Video Walkthrough </a>
 
 ## Notes
 
-Pretty cool to put together what we've done in all 3 labs into this project.
+Pretty cool to put together what we've done in all 3 labs into this project. A key takeaway from this project was learning the importance of consistent database naming conventions. I discovered that using snake_case for PostgreSQL columns avoids issues with how column names are returned and accessed in the frontend, making API responses easier to work with in React. I learned that PostgreSQL was converting camelCase column names to lowercase, which caused confusion when trying to access that data in the frontend. I enjoyed designing REST APIs to retrieve data points in different ways and hope to continue enhancing my backend skills. I thought it was a good learning experience the way the frontend code was initially set up. I had planned on using `useParams()` more and nesting all the routes with a layout component. Overall, it was a good learning experience.
 
 ## License
 
