@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div className='app'>
       <header className='main-header'>
-        <h1>Event-Jam</h1>
+        <h1>Music-Jam</h1>
 
         <div className='header-buttons'>
           <Link to='/' role='button'>Home</Link>
