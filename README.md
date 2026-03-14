@@ -39,7 +39,7 @@ Here's a walkthrough of implemented required features:
 
 ![App Demo](./demo.gif)
 
-<a href='https://imgur.com/a/6xB7vgA' aria-label='Video Walkthrough'> Video Walkthrough </a>
+<a href='https://imgur.com/a/NvZM3ne' aria-label='Video Walkthrough'> Video Walkthrough </a>
 
 ## Notes
 
