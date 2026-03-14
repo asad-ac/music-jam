@@ -21,6 +21,11 @@ header {
     z-index: 1;
 }
 
+.event-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header-buttons {
     width: 30%;
     display: flex;

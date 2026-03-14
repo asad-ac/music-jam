@@ -24,11 +24,18 @@ const LocationEvents = ({ index }) => {
         fetchLocationData()
     }, [index])
 
+    const locationPaths = {
+        1: '/madisonsquaregarden',
+        2: '/cryptocomarena',
+        3: '/unitedcenter',
+        4: '/kaseyacenter'
+    }
+
     return (
         <div className='location-events'>
             <header>
                 <div className='location-image'>
-                    <img src={location.image} alt={location.name} />
+                    {location.image && <img src={location.image} alt={location.name} />}
                 </div>
 
                 <div className='location-info'>
@@ -44,6 +51,7 @@ const LocationEvents = ({ index }) => {
                         <Event
                             key={event.id}
                             id={event.id}
+                            detailPath={`${locationPaths[index]}/events/${event.id}`}
                         />
                     ) : <h2><i className="fa-regular fa-calendar-xmark fa-shake"></i> {'No events scheduled at this location yet!'}</h2>
                 }

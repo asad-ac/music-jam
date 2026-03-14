@@ -1,0 +1,61 @@
+.event-details-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.event-card {
+    background: black;
+    width: 700px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.event-card-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.event-card-content {
+    padding: 30px;
+}
+
+.event-card-content h2 {
+    margin-bottom: 15px;
+}
+
+.event-date,
+.event-artist {
+    margin-bottom: 10px;
+}
+
+.event-description {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.ticket-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.ticket-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.back-button {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
