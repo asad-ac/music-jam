@@ -43,7 +43,7 @@ Here's a walkthrough of implemented required features:
 
 ## Notes
 
-Pretty cool to put together what we've done in all 3 labs into this project.
+Pretty cool to put together what we've done in all 3 labs into this project. A key takeaway from this project was learning the importance of consistent database naming conventions. I discovered that using snake_case for PostgreSQL columns avoids issues with how column names are returned and accessed in the frontend, making API responses easier to work with in React. I read that PostgresSQL was making the camel case lowercase causing confusion when trying to access that data in the frontend. I enjoyed desigining rest API to retrieve data points in different ways. I thought it was a good learning experience the way the frontend code was initially setup, I had planned on using useParams() more and to nest all the routes with a layout component. Good learning experience overall on making full stack applications and the flow to do so.
 
 ## License
 
